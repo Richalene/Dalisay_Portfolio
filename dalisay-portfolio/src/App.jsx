@@ -1,19 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mary Richalene Dalisay| Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from './assets/vite.svg'
+import heroImg from './assets/hero.png'
+import './App.css'
 
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
   <header>
-    <p class="file-id">FILE // PORTFOLIO-2026</p>
+    <p className="file-id">FILE // PORTFOLIO-2026</p>
     <h1>Mary Dalisay</h1>
-    <p class="role">BS Computer Science student. </p>
+    <p className="role">BS Computer Science student. </p>
    </header>
 
   <nav>
@@ -27,7 +26,7 @@
   <main>
 
     <section id="about">
-      <p class="section-label">01 &mdash; ABOUT</p>
+      <p className="section-label">01 &mdash; ABOUT</p>
       <h2>About Me</h2>
       <p>
         I'm a Computer Science student focused on practical, real-world builds. 
@@ -37,20 +36,20 @@
     </section>
 
     <section id="projects">
-      <p class="section-label">02 &mdash; PROJECTS</p>
+      <p className="section-label">02 &mdash; PROJECTS</p>
       <h2>Projects</h2>
 
       <article>
-        <div class="article-head">
+        <div className="article-head">
           <h3>SenyaSabi</h3>
-          <span class="status">IN DEVELOPMENT</span>
+          <span className="status">IN DEVELOPMENT</span>
         </div>
 
-        <div class="specs">
-          <div class="spec"><span class="spec-key">STACK</span>PySide6, MediaPipe</div>
-          <div class="spec"><span class="spec-key">TYPE</span>Thesis / desktop app</div>
+        <div className="specs">
+          <div className="spec"><span className="spec-key">STACK</span>PySide6, MediaPipe</div>
+          <div className="spec"><span className="spec-key">TYPE</span>Thesis / desktop app</div>
         </div>
-        <p class="desc">
+        <p className="desc">
           A Filipino Sign Language (FSL) learning application using MediaPipe
           for landmark extraction and a CNN-based classifier for real-time
           sign recognition.
@@ -58,31 +57,31 @@
       </article>
 
       <article>
-        <div class="article-head">
+        <div className="article-head">
           <h3>Starlink Data Scraper</h3>
-          <span class="status">COMPLETE</span>
+          <span className="status">COMPLETE</span>
         </div>
 
-        <div class="specs">
-          <div class="spec"><span class="spec-key">STACK</span>Selenium, pandas</div>
-          <div class="spec"><span class="spec-key">TYPE</span>Automation script</div>
+        <div className="specs">
+          <div className="spec"><span className="spec-key">STACK</span>Selenium, pandas</div>
+          <div className="spec"><span className="spec-key">TYPE</span>Automation script</div>
         </div>
-        <p class="desc">
+        <p className="desc">
           A scraper that attaches to a live Chrome session to collect and
           export structured data to CSV.
         </p>
       </article>
 
       <article>
-        <div class="article-head">
+        <div className="article-head">
           <h3>Self Hosted Home Media Server</h3>
-          <span class="status">In Development</span>
+          <span className="status">In Development</span>
         </div>
-        <div class="specs">
-          <div class="spec"><span class="spec-key">STACK</span>Python, Flask</div>
-          <div class="spec"><span class="spec-key">TYPE</span>Web application</div>
+        <div className="specs">
+          <div className="spec"><span className="spec-key">STACK</span>Python, Flask</div>
+          <div className="spec"><span className="spec-key">TYPE</span>Web application</div>
         </div>
-        <p class="desc">
+        <p className="desc">
           A self-hosted home media server built with Python and Flask.
         </p>
       </article>
@@ -100,6 +99,8 @@
       <p>&copy; 2026 Mary Dalisay</p>
     </div>
   </footer>
+    </>
+  )
+}
 
-</body>
-</html>
+export default App
