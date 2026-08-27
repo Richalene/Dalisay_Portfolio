@@ -16,18 +16,18 @@ function About() {
       <div className="space-y-5 text-white/70 leading-relaxed text-base md:text-lg">
         <p>
           I'm an aspiring <span className="text-white font-medium">Linux System Administrator</span> —
-          I like getting under the hood of machines and figuring out why
-          something broke at 2am.
+          I like tweaking systems and figuring out why
+          something broke at 2am. Be it mine or a friend's, I like to keep things running smoothly and efficiently.
         </p>
 
         <p>
           Most of my time goes into <span className="text-purple-300 font-medium">Arch-based systems</span>,
-          self-hosted services, and automating the repetitive stuff so I
+          reading into the system, keeping them up-to-date, and automating the repetitive stuff so I
           don't have to think about it twice.
         </p>
 
         <p>
-          Outside of that, I run <span className="text-white font-medium">local media servers</span>{' '}
+          Outside of that, I run <span className="text-white font-medium">self-hosted home servers for my family</span>{' '}
           and tinker with livestreaming setups on OBS.
         </p>
       </div>
