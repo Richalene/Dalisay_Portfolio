@@ -15,13 +15,13 @@ function About() {
 
       <div className="space-y-5 text-white/70 leading-relaxed text-base md:text-lg">
         <p>
-          I'm an aspiring <span className="text-white font-medium">Linux System Administrator</span> —
+          I'm an aspiring <span className="text-white font-medium">Linux System Administrator.</span>
           I like tweaking systems and figuring out why
           something broke at 2am. Be it mine or a friend's, I like to keep things running smoothly and efficiently.
         </p>
 
         <p>
-          Most of my time goes into <span className="text-purple-300 font-medium">Arch-based systems</span>,
+          Most of my time goes into <span className="text-purple-300 font-medium">Arch-based systems and sometimes Fedora</span>,
           reading into the system, keeping them up-to-date, and automating the repetitive stuff so I
           don't have to think about it twice.
         </p>
