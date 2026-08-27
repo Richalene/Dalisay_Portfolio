@@ -16,7 +16,7 @@ function About() {
       <div className="space-y-5 text-white/70 leading-relaxed text-base md:text-lg">
         <p>
           I'm an aspiring <span className="text-white font-medium">Linux System Administrator.</span>
-          I like tweaking systems and figuring out why
+           I like tweaking systems and figuring out why
           something broke at 2am. Be it mine or a friend's, I like to keep things running smoothly and efficiently.
         </p>
 
