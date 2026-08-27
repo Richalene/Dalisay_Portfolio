@@ -12,7 +12,7 @@ function App() {
     <main
       className="relative min-h-screen overflow-y-auto bg-scroll bg-cover bg-center"
       style={{
-        backgroundImage: "url('https://media.discordapp.net/attachments/1101141739596697601/1542376121176432710/1000023754.jpg?ex=6a910133&is=6a8fafb3&hm=5dbbf9c2fee6da93defb5ed3ed248660c2c317d48bbe7db6514f54ac26de2722&=&format=webp&width=486&height=1024')",
+        backgroundImage: "url('https://media.discordapp.net/attachments/1101141739596697601/1542397189802954853/bgurple.png?ex=6a9114d2&is=6a8fc352&hm=ab530e3c88f05bea672abf40ccfa4fb4d2f44cdfe0212f62839d75dbbc6def2d&=&format=webp&quality=lossless&width=512&height=1024')",
         backgroundSize: '50%',
       }}
     >
