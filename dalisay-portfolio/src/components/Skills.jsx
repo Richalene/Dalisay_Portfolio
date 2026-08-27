@@ -15,7 +15,7 @@ const skillGroups = [
   },
   {
     category: 'Networking',
-    items: ['Basic networking concepts', 'WireGuard', 'Local server setup', 'DNS & routing fundamentals'],
+    items: ['Basic networking concepts', 'Hamachi', 'Local server setup', 'DNS & routing fundamentals'],
   },
   {
     category: 'Livestreaming & Media',
