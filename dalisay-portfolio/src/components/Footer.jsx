@@ -7,7 +7,7 @@ function Footer() {
         </p>
 
         <div className="flex items-center gap-2 text-xs font-mono text-purple-400/50">
-          made with love and red bull :p
+          made with love, red bull, and nate for moral support :3
         </div>
       </div>
     </footer>
